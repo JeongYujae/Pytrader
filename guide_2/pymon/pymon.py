@@ -36,7 +36,7 @@ class PyMon:
         df = self.get_ohlcv(code, today)
         volumes = df['volume']
 
-        if len(volumes) < 21:
+        if len(volumes) < 11:
             return False
 
         sum_vol20 = 0
@@ -50,8 +50,8 @@ class PyMon:
             else:
                 break
 
-        avg_vol20 = sum_vol20 / 20 #20일 기준
-        if today_vol > avg_vol20 * 2: #몇배 상승할지 설정(바꿔보자)
+        avg_vol20 = sum_vol20 / 10 #20일 기준
+        if today_vol > avg_vol20 * 1.5: #몇배 상승할지 설정(바꿔보자)
             return True
 
     def update_buy_list(self, buy_list):
