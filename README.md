@@ -1,5 +1,22 @@
-"# Pytrader" 
+# Pytrader, Automatic stock trading program
 
-Using python and kiwoom api, this projecet would build a auto-stock-trading system.
 
-Based on the algorithm, program would buy and sell automatically.
+## About the Project
+Based on several algorithm, I built a Auto stock trading program. You can find tickers based on my algorithm(check in guide_3>pymon_new.py).
+It can be back tested through zipline module, and through data this can be a good adviser for your stock trading.
+It's focused on Korean stock market.
+Make a try!
+
+## Purpose
+
+Value of labor has been decreasing, increase for the stock market surged. Lot of people started to search how to make money
+through investing, at all with inputing less time and effort.
+Programming would solve my problem, I strongly believed, and this is 'why' for the project
+
+
+## Built with 
+
++python
++Kiwoom API
+
+
