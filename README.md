@@ -1,7 +1,7 @@
 # Pytrader, Automatic stock trading program
 
 
-## About the Project
+## About
 Based on several algorithm, I built a Auto stock trading program. You can find tickers based on my algorithm(check in guide_3>pymon_new.py).
 It can be back tested through zipline module, and through data this can be a good adviser for your stock trading.
 It's focused on Korean stock market.
@@ -18,5 +18,13 @@ Programming would solve my problem, I strongly believed, and this is 'why' for t
 
 +python
 +Kiwoom API
+
+# Requirements
+
+Kiwoom API + Kiwoom 영웅문
+
+pip install all included in requirements.txt
+
+pip install -r requirements.txt
 
 
